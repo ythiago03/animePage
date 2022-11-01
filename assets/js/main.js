@@ -90,9 +90,9 @@ const renderFiltered = (genreClick) => {
 
         <div class="b-info">
             <div class="save"></div>
-            <div class="play">
+            <a href="${linkCard}" class="play" target="_blank">
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAABmJLR0QA/wD/AP+gvaeTAAABiUlEQVRYhe3XsUsbYRjH8e/7XoaOYp1eccjWQfCONwYCLvoXuByUIi7i7Owgbf+Duru5GSSzQqmDFOG4Qwh0EAk4ZXQUchyvk9AhDZL3vUuH5zMePD++BA4uIIQQQgghZlI+x3EcL0VRdAHsAI/ASZ7n/SBlM0Q+x8aY70qpfUADK0BqjFk1xvwcj8dlkMIptM+xUqo95fEhkCdJsuGzPYtX9AyftNZ31tqjOsbrigb4APyw1g56vd5yyOE6o9/sTiaTe2vtVqjBJqIB1oBfnU7nW5qmXi8/NBcN0HLOfR2NRtfdbvejz1CT0W92qqq6ieN4ad6BRUQDrGut03mPFxVdRVF0P+/xIqJLpdRelmXZvAOtkDXv8KS1/pJl2W+fkcainXOXZVkeDofDZ9+tJqJfgOOiKE5DDdYd/Qf4nOf5MORobS+ic+4c2AwdDP6/9GTKs2fn3EFRFAPP7X/y/Z4+A/7+2L8F4jqDwfPvFkCSJBtKqW2t9UO73b7q9/tViDAhhBBCiP/FKyrgYUGy5bTVAAAAAElFTkSuQmCC">
-            </div>
+            </a>
             <div class="b-info-wrapper">
                 <span class="b-info-studio">${studio}</span>
                 <span class="b-info-genre">${genre}</span>
@@ -107,7 +107,7 @@ const renderFiltered = (genreClick) => {
         </div>
 
         <div class="card-img"><img src="${urlCard}" alt=""></div>
-            <span class="b-name">${name}</span>
+        <span class="b-name">${name}</span>
     </div>
         `}
     }) 

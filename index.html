@@ -1,231 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <script defer src="assets/js/main.js" type="module"></script>
-    <title>Anime Page | Best Animes</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <script defer src="assets/js/main.js" type="module"></script>
+        <title>Anime Page | Best Animes</title>
+    </head>
+    <body>
 
-    <header id="home" class="h-container">
+        <header id="home" class="h-container">
 
-        <section class="sidebar">
-            <div class="profile">
-                <img src="https://static.wikia.nocookie.net/cyberpunk/images/f/ff/Lucy_Infobox_CPEDGE.png" alt="Profile Picture">
-            </div>
-
-            <div class="slider">
-                <ul>
-                    <li class="active"></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-
-            <span>teste</span>
-        </section>
-
-        <section class="main-header">
-            <nav class="navbar">
-                <ul class="nav-ul">
-                    <li class="nav-item"><a href="#animes">Lançamentos</a></li>
-                    <li class="nav-item"><a href="#animes">Popular</a></li>
-                    <li class="nav-item"><a href="#animes">Gêneros</a></li>
-                    <li class="nav-item"><a href="#animes">FAQ</a></li>
-                </ul>
-
-                <div class="menu">
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-
-            <div class="resume">
-                <div class="wrapper-anime">
-                        <h1>Goblin Slayer</h1>
-                    <p class="description">
-                        Uma jovem sacerdotisa forma seu primeiro bando de aventureiros, mas eles imediatamente se metem em apuros. É então que o Goblin Slayer vem a seu resgate - um homem que dedica sua vida a exterminar todos os goblins, custe o que custar. E quando seus feitos começam a se espalhar, ninguém sabe o que pode acontecer depois...
-                    </p>
-                    <a class="resu-btn">
-                        Assista agora 
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAbElEQVRIie2RKw6AQAwF3yZYBOcAJIsh4ee4OUfhFINpAgYE2RUkHVPxkhlRyXHeABqgyxnogQMYc0YGiywe+RQJNrSStkSdQdIsaQ0h7MVtqBIFSrsk8l1k/YPLn+TR5FNyuQVqIGaRO//hBJmgenXcSnsrAAAAAElFTkSuQmCC">
-                    </a>
-                </div>
-                <div class="episodes">
-                    <span>01</span>
-                    <span>/12</span>
-                </div>
-            </div>
-
-            <div class="gallery-anime">
-                <div class="g-wrapper">
-                    <div class="avaliacao">
-                        <h3>Avaliação</h3>
-                        <div class="stars">
-                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABpklEQVQ4jcWUQUsbURCAv3nJ0qsehGYPoSappTkJFtqbPVZECwoiCPZnaKDGFy3Sc39BLS30L/Sk/gERFKqIMcGGBS8epJ7cN73UsNms2QUPDuxhZ7755s1bWHiM6KyVFztr5cUsbD4LJKIroAr8TGXTgD+2NGYcJwAY99K3reNBvEkTmlAWui9O5lP5NADRrlCIyO/DBxU7H0dfiJHeFV1Y9T+1fw8UBvXSZ0VK/WV9DozHkgcgp/0mPfMbzVoeQNFrYJ4sVwDjoPEhDtV694QAga28xekPRf0M0mhcglv2N1q/eoQAQa0yovnwGyLvMsp2vNtwaWSrHdwl+j6KWkzgRmsgG9x/BQ6V9ULubEssLlroaxCLC0Pva9KwKKaO7bgsUQhgcuFcmhDj3if2Jo/X2Vjq5v8TMUo24bl9NoQwGUkdGeUNxk0A+xHjZHu1OJwqfOJkBvAARfTL3yvz6ulm89C3reOCKb5WaAAh4Hlebjren/D7kingQpAPhUZzp6did28BG9TLe4puY2QK+J60ejcCW6kmrRKP9mpxOLCVahr34PgHLyyDPtXSl10AAAAASUVORK5CYII=">
-                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABpklEQVQ4jcWUQUsbURCAv3nJ0qsehGYPoSappTkJFtqbPVZECwoiCPZnaKDGFy3Sc39BLS30L/Sk/gERFKqIMcGGBS8epJ7cN73UsNms2QUPDuxhZ7755s1bWHiM6KyVFztr5cUsbD4LJKIroAr8TGXTgD+2NGYcJwAY99K3reNBvEkTmlAWui9O5lP5NADRrlCIyO/DBxU7H0dfiJHeFV1Y9T+1fw8UBvXSZ0VK/WV9DozHkgcgp/0mPfMbzVoeQNFrYJ4sVwDjoPEhDtV694QAga28xekPRf0M0mhcglv2N1q/eoQAQa0yovnwGyLvMsp2vNtwaWSrHdwl+j6KWkzgRmsgG9x/BQ6V9ULubEssLlroaxCLC0Pva9KwKKaO7bgsUQhgcuFcmhDj3if2Jo/X2Vjq5v8TMUo24bl9NoQwGUkdGeUNxk0A+xHjZHu1OJwqfOJkBvAARfTL3yvz6ulm89C3reOCKb5WaAAh4Hlebjren/D7kingQpAPhUZzp6did28BG9TLe4puY2QK+J60ejcCW6kmrRKP9mpxOLCVahr34PgHLyyDPtXSl10AAAAASUVORK5CYII=">
-                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABpklEQVQ4jcWUQUsbURCAv3nJ0qsehGYPoSappTkJFtqbPVZECwoiCPZnaKDGFy3Sc39BLS30L/Sk/gERFKqIMcGGBS8epJ7cN73UsNms2QUPDuxhZ7755s1bWHiM6KyVFztr5cUsbD4LJKIroAr8TGXTgD+2NGYcJwAY99K3reNBvEkTmlAWui9O5lP5NADRrlCIyO/DBxU7H0dfiJHeFV1Y9T+1fw8UBvXSZ0VK/WV9DozHkgcgp/0mPfMbzVoeQNFrYJ4sVwDjoPEhDtV694QAga28xekPRf0M0mhcglv2N1q/eoQAQa0yovnwGyLvMsp2vNtwaWSrHdwl+j6KWkzgRmsgG9x/BQ6V9ULubEssLlroaxCLC0Pva9KwKKaO7bgsUQhgcuFcmhDj3if2Jo/X2Vjq5v8TMUo24bl9NoQwGUkdGeUNxk0A+xHjZHu1OJwqfOJkBvAARfTL3yvz6ulm89C3reOCKb5WaAAh4Hlebjren/D7kingQpAPhUZzp6did28BG9TLe4puY2QK+J60ejcCW6kmrRKP9mpxOLCVahr34PgHLyyDPtXSl10AAAAASUVORK5CYII=">
-                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABpklEQVQ4jcWUQUsbURCAv3nJ0qsehGYPoSappTkJFtqbPVZECwoiCPZnaKDGFy3Sc39BLS30L/Sk/gERFKqIMcGGBS8epJ7cN73UsNms2QUPDuxhZ7755s1bWHiM6KyVFztr5cUsbD4LJKIroAr8TGXTgD+2NGYcJwAY99K3reNBvEkTmlAWui9O5lP5NADRrlCIyO/DBxU7H0dfiJHeFV1Y9T+1fw8UBvXSZ0VK/WV9DozHkgcgp/0mPfMbzVoeQNFrYJ4sVwDjoPEhDtV694QAga28xekPRf0M0mhcglv2N1q/eoQAQa0yovnwGyLvMsp2vNtwaWSrHdwl+j6KWkzgRmsgG9x/BQ6V9ULubEssLlroaxCLC0Pva9KwKKaO7bgsUQhgcuFcmhDj3if2Jo/X2Vjq5v8TMUo24bl9NoQwGUkdGeUNxk0A+xHjZHu1OJwqfOJkBvAARfTL3yvz6ulm89C3reOCKb5WaAAh4Hlebjren/D7kingQpAPhUZzp6did28BG9TLe4puY2QK+J60ejcCW6kmrRKP9mpxOLCVahr34PgHLyyDPtXSl10AAAAASUVORK5CYII=">
-                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABo0lEQVQ4jcWUP2sUQRjGf+/+4VotbMZCEFRSmAgGki4WFoZDBYUQEPQObo7dTxACRk5QsLa44r3iUBT8ClaHX0AEUySI1RWCKQWrc8YiF5msu7dbCD4wxTzvM795ZwYG/oestdvW2u0m2aRJSER2AA+8q83WBay1l0XkcD5dUtWDRfmoDhhF0VYwvV+brwt470PgVmWwCTDP8yvA1cBa7vV6S4vWCIC19oWIXCypXwKuFbxPwJeS7FdV3U0AROQHx/dTewXzDYqbOODJnw4Bsiy74Zx7C5gG0FDfvfcPR6PR+1NAgG63ey5N09fArYawCfBAVb+dGKeOOB6Pj4wxbeDx/BhVciKyZ4y5GcL+6vBEWZadd85Nq+qAT5LkwnA4nBYLpY/gvb+3AAYgs9nsblmhCninYP2cj1DNgJ1O5wywEVj7wDpwHfgY+Bt5np+tBaZpehtIOf5dXrZarVVV/ayqB8aYNeAp8AtInXPt4vqy72sTmAKPVHUSFgaDwQwY9Pv9D8Ar7/0m8GZhh1EUPYvjeKUIC6WqkziOV0TkeVXmn+k31u9yotLaCb4AAAAASUVORK5CYII=" alt="">
-                        </div>
-                    </div>
-                    <div class="author">
-                        <h3>Autor</h3>
-                        <span>Kumo Kagyu</span>
-                    </div>
-                    <div class="genre">
-                        <h3>Gêneros</h3>
-                        <span>Dark fantasy</span>
-                    </div>
-                </div>
-
-                <div class="gallery">
-                    <div class="gallery-item">
-                        <img src="https://img.anime2you.de/2018/07/goblin.jpg" alt="">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2019/01/goblin-slayer-resenha-02.jpg?resize=1280%2C720&ssl=1" alt="Gallery">
-                    </div>
-                    <div class="gallery-item"  >
-                        <img src="https://i.ytimg.com/vi/HU65l3WD_o0/maxresdefault.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="profileFull">
-
-            <div class="closeProfile">
-                <span></span>
-                <span></span>
-            </div>
-
-            <div class="profile-info">
-                <div class="profile">  
+            <section class="sidebar">
+                <div class="profile">
                     <img src="https://static.wikia.nocookie.net/cyberpunk/images/f/ff/Lucy_Infobox_CPEDGE.png" alt="Profile Picture">
                 </div>
-              
-                <h3 class="prof-name">Ythiago03</h3>
+
+                <div class="slider">
+                    <ul>
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <span>teste</span>
+            </section>
+
+            <section class="main-header">
+                <nav class="navbar">
+                    <ul class="nav-ul">
+                        <li class="nav-item"><a href="#main">Lançamentos</a></li>
+                        <li class="nav-item"><a href="#main">Popular</a></li>
+                        <li class="nav-item"><a href="#main">Gêneros</a></li>
+                        <li class="nav-item"><a href="#footer">FAQ</a></li>
+                    </ul>
+
+                    <div class="menu">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+
+                <div class="resume">
+                    <div class="wrapper-anime">
+                            <h1>Goblin Slayer</h1>
+                        <p class="description">
+                            Uma jovem sacerdotisa forma seu primeiro bando de aventureiros, mas eles imediatamente se metem em apuros. É então que o Goblin Slayer vem a seu resgate - um homem que dedica sua vida a exterminar todos os goblins, custe o que custar. E quando seus feitos começam a se espalhar, ninguém sabe o que pode acontecer depois...
+                        </p>
+                        <a class="resu-btn">
+                            Assista agora 
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAbElEQVRIie2RKw6AQAwF3yZYBOcAJIsh4ee4OUfhFINpAgYE2RUkHVPxkhlRyXHeABqgyxnogQMYc0YGiywe+RQJNrSStkSdQdIsaQ0h7MVtqBIFSrsk8l1k/YPLn+TR5FNyuQVqIGaRO//hBJmgenXcSnsrAAAAAElFTkSuQmCC">
+                        </a>
+                    </div>
+                    <div class="episodes">
+                        <span>01</span>
+                        <span>/12</span>
+                    </div>
+                </div>
+
+                <div class="gallery-anime">
+                    <div class="g-wrapper">
+                        <div class="avaliacao">
+                            <h3>Avaliação</h3>
+                            <div class="stars">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABpklEQVQ4jcWUQUsbURCAv3nJ0qsehGYPoSappTkJFtqbPVZECwoiCPZnaKDGFy3Sc39BLS30L/Sk/gERFKqIMcGGBS8epJ7cN73UsNms2QUPDuxhZ7755s1bWHiM6KyVFztr5cUsbD4LJKIroAr8TGXTgD+2NGYcJwAY99K3reNBvEkTmlAWui9O5lP5NADRrlCIyO/DBxU7H0dfiJHeFV1Y9T+1fw8UBvXSZ0VK/WV9DozHkgcgp/0mPfMbzVoeQNFrYJ4sVwDjoPEhDtV694QAga28xekPRf0M0mhcglv2N1q/eoQAQa0yovnwGyLvMsp2vNtwaWSrHdwl+j6KWkzgRmsgG9x/BQ6V9ULubEssLlroaxCLC0Pva9KwKKaO7bgsUQhgcuFcmhDj3if2Jo/X2Vjq5v8TMUo24bl9NoQwGUkdGeUNxk0A+xHjZHu1OJwqfOJkBvAARfTL3yvz6ulm89C3reOCKb5WaAAh4Hlebjren/D7kingQpAPhUZzp6did28BG9TLe4puY2QK+J60ejcCW6kmrRKP9mpxOLCVahr34PgHLyyDPtXSl10AAAAASUVORK5CYII=">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABpklEQVQ4jcWUQUsbURCAv3nJ0qsehGYPoSappTkJFtqbPVZECwoiCPZnaKDGFy3Sc39BLS30L/Sk/gERFKqIMcGGBS8epJ7cN73UsNms2QUPDuxhZ7755s1bWHiM6KyVFztr5cUsbD4LJKIroAr8TGXTgD+2NGYcJwAY99K3reNBvEkTmlAWui9O5lP5NADRrlCIyO/DBxU7H0dfiJHeFV1Y9T+1fw8UBvXSZ0VK/WV9DozHkgcgp/0mPfMbzVoeQNFrYJ4sVwDjoPEhDtV694QAga28xekPRf0M0mhcglv2N1q/eoQAQa0yovnwGyLvMsp2vNtwaWSrHdwl+j6KWkzgRmsgG9x/BQ6V9ULubEssLlroaxCLC0Pva9KwKKaO7bgsUQhgcuFcmhDj3if2Jo/X2Vjq5v8TMUo24bl9NoQwGUkdGeUNxk0A+xHjZHu1OJwqfOJkBvAARfTL3yvz6ulm89C3reOCKb5WaAAh4Hlebjren/D7kingQpAPhUZzp6did28BG9TLe4puY2QK+J60ejcCW6kmrRKP9mpxOLCVahr34PgHLyyDPtXSl10AAAAASUVORK5CYII=">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABpklEQVQ4jcWUQUsbURCAv3nJ0qsehGYPoSappTkJFtqbPVZECwoiCPZnaKDGFy3Sc39BLS30L/Sk/gERFKqIMcGGBS8epJ7cN73UsNms2QUPDuxhZ7755s1bWHiM6KyVFztr5cUsbD4LJKIroAr8TGXTgD+2NGYcJwAY99K3reNBvEkTmlAWui9O5lP5NADRrlCIyO/DBxU7H0dfiJHeFV1Y9T+1fw8UBvXSZ0VK/WV9DozHkgcgp/0mPfMbzVoeQNFrYJ4sVwDjoPEhDtV694QAga28xekPRf0M0mhcglv2N1q/eoQAQa0yovnwGyLvMsp2vNtwaWSrHdwl+j6KWkzgRmsgG9x/BQ6V9ULubEssLlroaxCLC0Pva9KwKKaO7bgsUQhgcuFcmhDj3if2Jo/X2Vjq5v8TMUo24bl9NoQwGUkdGeUNxk0A+xHjZHu1OJwqfOJkBvAARfTL3yvz6ulm89C3reOCKb5WaAAh4Hlebjren/D7kingQpAPhUZzp6did28BG9TLe4puY2QK+J60ejcCW6kmrRKP9mpxOLCVahr34PgHLyyDPtXSl10AAAAASUVORK5CYII=">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABpklEQVQ4jcWUQUsbURCAv3nJ0qsehGYPoSappTkJFtqbPVZECwoiCPZnaKDGFy3Sc39BLS30L/Sk/gERFKqIMcGGBS8epJ7cN73UsNms2QUPDuxhZ7755s1bWHiM6KyVFztr5cUsbD4LJKIroAr8TGXTgD+2NGYcJwAY99K3reNBvEkTmlAWui9O5lP5NADRrlCIyO/DBxU7H0dfiJHeFV1Y9T+1fw8UBvXSZ0VK/WV9DozHkgcgp/0mPfMbzVoeQNFrYJ4sVwDjoPEhDtV694QAga28xekPRf0M0mhcglv2N1q/eoQAQa0yovnwGyLvMsp2vNtwaWSrHdwl+j6KWkzgRmsgG9x/BQ6V9ULubEssLlroaxCLC0Pva9KwKKaO7bgsUQhgcuFcmhDj3if2Jo/X2Vjq5v8TMUo24bl9NoQwGUkdGeUNxk0A+xHjZHu1OJwqfOJkBvAARfTL3yvz6ulm89C3reOCKb5WaAAh4Hlebjren/D7kingQpAPhUZzp6did28BG9TLe4puY2QK+J60ejcCW6kmrRKP9mpxOLCVahr34PgHLyyDPtXSl10AAAAASUVORK5CYII=">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAABo0lEQVQ4jcWUP2sUQRjGf+/+4VotbMZCEFRSmAgGki4WFoZDBYUQEPQObo7dTxACRk5QsLa44r3iUBT8ClaHX0AEUySI1RWCKQWrc8YiF5msu7dbCD4wxTzvM795ZwYG/oestdvW2u0m2aRJSER2AA+8q83WBay1l0XkcD5dUtWDRfmoDhhF0VYwvV+brwt470PgVmWwCTDP8yvA1cBa7vV6S4vWCIC19oWIXCypXwKuFbxPwJeS7FdV3U0AROQHx/dTewXzDYqbOODJnw4Bsiy74Zx7C5gG0FDfvfcPR6PR+1NAgG63ey5N09fArYawCfBAVb+dGKeOOB6Pj4wxbeDx/BhVciKyZ4y5GcL+6vBEWZadd85Nq+qAT5LkwnA4nBYLpY/gvb+3AAYgs9nsblmhCninYP2cj1DNgJ1O5wywEVj7wDpwHfgY+Bt5np+tBaZpehtIOf5dXrZarVVV/ayqB8aYNeAp8AtInXPt4vqy72sTmAKPVHUSFgaDwQwY9Pv9D8Ar7/0m8GZhh1EUPYvjeKUIC6WqkziOV0TkeVXmn+k31u9yotLaCb4AAAAASUVORK5CYII=" alt="">
+                            </div>
+                        </div>
+                        <div class="author">
+                            <h3>Autor</h3>
+                            <span>Kumo Kagyu</span>
+                        </div>
+                        <div class="genre">
+                            <h3>Gêneros</h3>
+                            <span>Dark fantasy</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery">
+                        <div class="gallery-item">
+                            <img src="https://img.anime2you.de/2018/07/goblin.jpg" alt="">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2019/01/goblin-slayer-resenha-02.jpg?resize=1280%2C720&ssl=1" alt="Gallery">
+                        </div>
+                        <div class="gallery-item"  >
+                            <img src="https://i.ytimg.com/vi/HU65l3WD_o0/maxresdefault.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="profileFull">
+
+                <div class="closeProfile">
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="profile-info">
+                    <div class="profile">  
+                        <img src="https://static.wikia.nocookie.net/cyberpunk/images/f/ff/Lucy_Infobox_CPEDGE.png" alt="Profile Picture">
+                    </div>
+                
+                    <h3 class="prof-name">Ythiago03</h3>
+                </div>
+
+                <div class="sobre-mim" >
+                    <h3>Sobre mim:</h3>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur laboriosam obcaecati adipisci et ipsa. Sit magnam molestiae provident facilis harum amet eius sint minima, error nulla, deserunt, nobis odio ratione.</p>
+                </div>
+                
+                <div class="fav">
+                    <div class="fav-banner">
+                        <a href="https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners" target="_blank"><img src="https://cdn.myanimelist.net/r/140x220/images/anime/1818/126435.webp?s=d2d182009422d11ce761201b7d229a95" alt=""></a>  
+                    </div>
+                    <div class="fav-banner">
+                        <a href="https://myanimelist.net/anime/48569/86_Part_2" target="_blank"><img src="https://cdn.myanimelist.net/r/140x220/images/anime/1321/117508.webp?s=d6f0c8127f5cb0c04f5461decf1c11ea" alt=""></a>
+                    </div>
+                    <div class="fav-banner">
+                        <a href="https://myanimelist.net/anime/48736/Sono_Bisque_Doll_wa_Koi_wo_Suru" target="_blank"><img src="https://cdn.myanimelist.net/r/140x220/images/anime/1179/119897.webp?s=4b24655d55395fe0e784f7f5b09cf224" alt=""></a>         
+                    </div>
+                    <div class="fav-banner">
+                        <a href="https://myanimelist.net/anime/39551/Tensei_shitara_Slime_Datta_Ken_2nd_Season" target="_blank"><img src="https://cdn.myanimelist.net/r/140x220/images/anime/1271/109841.webp?s=b0d7e2af0a4d39d28be67e5f5d2d79f4" alt=""></a>          
+                    </div>
+                    <div class="fav-banner">
+                        <a href="https://myanimelist.net/anime/39535/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu" target="_blank"><img src="https://cdn.myanimelist.net/r/140x220/images/anime/1530/117776.webp?s=f652dc8592b8910fbf7bfbff62d7a802" alt=""></a>         
+                    </div>
+                    <div class="fav-banner">
+                        <a href="https://myanimelist.net/anime/39783/5-toubun_no_Hanayome_%E2%88%AC" target="_blank"><img src="https://cdn.myanimelist.net/r/140x220/images/anime/1775/109514.webp?s=74e933eaebdbcfd1eabf5aeecd3d6f35" alt=""></a>
+                    </div>
+                </div>
+
+                <ul class="profile-list">
+                    <li><a href="#">Fila</a></li>
+                    <li id="list"><a href="#">Minhas listas</a></li>
+                    <li><a href="#">Minha Conta</a></li>
+                    <li><a href="#">Sair</a></li>
+                </ul>
+            </section>
+        
+        </header>
+
+        <main id="main" class="m-container">
+            <div class="m-cont-head">
+
+                <div class="list-info">
+                    <h3>Studio</h3>
+                    <select name="" id="">
+                        <option value="">Mappa</option>
+                        <option value="">A-1</option>
+                        <option value="">Ufotable</option>
+                    </select>
+                </div>
+
+                <div class="list-info">
+                    <h3>Ano</h3>
+                    <select name="" id="">
+                        <option value="">2022</option>
+                        <option value="">2021</option>
+                        <option value="">2020</option>
+                        <option value="">2019</option>
+                    </select>
+                </div>
+
+                <div class="list-info">
+                    <h3>Popular</h3>
+                    <select name="" id="">
+                        <option value="">Mais Populares</option>
+                        <option value="">Menos Populares</option>
+                    </select>
+                </div>
+
+                <div class="list-info">
+                    <h3>Recentes</h3>
+                    <select name="" id="">
+                        <option value="">Mais Recentes</option>
+                        <option value="">Menos Recentes</option>
+                    </select>
+                </div>
+
+                <div class="list-info">
+                    <h3>Dublagem</h3>
+                    <select name="" id="">
+                        <option value="">Japonês</option>
+                        <option value="">Português</option>
+                        <option value="">Inglês</option>
+                    </select>
+                </div>
+
+                <div class="list-info">
+                    <h3>Premiados</h3>
+                    <select name="" id="">
+                        <option value="">Anime Awards</option>
+                        <option value="">Anime Fun</option>
+                    </select>
+                </div>
+
             </div>
 
-            <div class="sobre-mim" >
-                <h3>Sobre mim:</h3>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur laboriosam obcaecati adipisci et ipsa. Sit magnam molestiae provident facilis harum amet eius sint minima, error nulla, deserunt, nobis odio ratione.</p>
-            </div>
-            
-            <div class="fav">
-                <div class="fav-banner">
-                    <a href="https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners" target="_blank"><img src="https://cdn.myanimelist.net/r/140x220/images/anime/1818/126435.webp?s=d2d182009422d11ce761201b7d229a95" alt=""></a>  
-                </div>
-                <div class="fav-banner">
-                    <a href="https://myanimelist.net/anime/48569/86_Part_2" target="_blank"><img src="https://cdn.myanimelist.net/r/140x220/images/anime/1321/117508.webp?s=d6f0c8127f5cb0c04f5461decf1c11ea" alt=""></a>
-                </div>
-                <div class="fav-banner">
-                    <a href="https://myanimelist.net/anime/48736/Sono_Bisque_Doll_wa_Koi_wo_Suru" target="_blank"><img src="https://cdn.myanimelist.net/r/140x220/images/anime/1179/119897.webp?s=4b24655d55395fe0e784f7f5b09cf224" alt=""></a>         
-                </div>
-                <div class="fav-banner">
-                    <a href="https://myanimelist.net/anime/39551/Tensei_shitara_Slime_Datta_Ken_2nd_Season" target="_blank"><img src="https://cdn.myanimelist.net/r/140x220/images/anime/1271/109841.webp?s=b0d7e2af0a4d39d28be67e5f5d2d79f4" alt=""></a>          
-                </div>
-                <div class="fav-banner">
-                    <a href="https://myanimelist.net/anime/39535/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu" target="_blank"><img src="https://cdn.myanimelist.net/r/140x220/images/anime/1530/117776.webp?s=f652dc8592b8910fbf7bfbff62d7a802" alt=""></a>         
-                </div>
-                <div class="fav-banner">
-                    <a href="https://myanimelist.net/anime/39783/5-toubun_no_Hanayome_%E2%88%AC" target="_blank"><img src="https://cdn.myanimelist.net/r/140x220/images/anime/1775/109514.webp?s=74e933eaebdbcfd1eabf5aeecd3d6f35" alt=""></a>
-                </div>
+            <div class="m-cont-sidebar">
+                <h3>Categorias</h3>
+                <ul>
+                    <li class="card-btn ">Ação</li>
+                    <li class="card-btn">Comédia</li>
+                    <li class="card-btn">Drama</li>
+                    <li class="card-btn">Ecchi</li>
+                    <li class="card-btn">Slice of Life</li>
+                    <li class="card-btn">Terror</li>
+                    <li class="card-btn">Militar</li>
+                    <li class="card-btn">Ficção Científica</li>
+                    <li class="card-btn">Romance</li>
+                    <li class="card-btn">Isekai</li>
+                </ul>
             </div>
 
-            <ul class="profile-list">
-                <li><a href="#">Fila</a></li>
-                <li id="list"><a href="#">Minhas listas</a></li>
-                <li><a href="#">Minha Conta</a></li>
-                <li><a href="#">Sair</a></li>
-            </ul>
-        </section>
+            <div id="animes" class="m-cont-main">
+
+            </div>
+        </main>
     
-    </header>
-
-    <main class="m-container">
-        <div class="m-cont-head">
-
-            <div class="list-info">
-                <h3>Studio</h3>
-                <select name="" id="">
-                    <option value="">Mappa</option>
-                    <option value="">A-1</option>
-                    <option value="">Ufotable</option>
-                </select>
+        <footer id="footer">
+            <div class="foot-header">
+                
             </div>
+            <section class="foot-main">
 
-            <div class="list-info">
-                <h3>Ano</h3>
-                <select name="" id="">
-                    <option value="">2022</option>
-                    <option value="">2021</option>
-                    <option value="">2020</option>
-                    <option value="">2019</option>
-                </select>
+            </section>
+            <div class="foot-footer">
+
             </div>
-
-            <div class="list-info">
-                <h3>Popular</h3>
-                <select name="" id="">
-                    <option value="">Mais Populares</option>
-                    <option value="">Menos Populares</option>
-                </select>
-            </div>
-
-            <div class="list-info">
-                <h3>Recentes</h3>
-                <select name="" id="">
-                    <option value="">Mais Recentes</option>
-                    <option value="">Menos Recentes</option>
-                </select>
-            </div>
-
-            <div class="list-info">
-                <h3>Dublagem</h3>
-                <select name="" id="">
-                    <option value="">Japonês</option>
-                    <option value="">Português</option>
-                    <option value="">Inglês</option>
-                </select>
-            </div>
-
-            <div class="list-info">
-                <h3>Premiados</h3>
-                <select name="" id="">
-                    <option value="">Anime Awards</option>
-                    <option value="">Anime Fun</option>
-                </select>
-            </div>
-
-        </div>
-
-        <div class="m-cont-sidebar">
-            <h3>Categorias</h3>
-            <ul>
-                <li class="card-btn ">Ação</li>
-                <li class="card-btn">Comédia</li>
-                <li class="card-btn">Drama</li>
-                <li class="card-btn">Ecchi</li>
-                <li class="card-btn">Slice of Life</li>
-                <li class="card-btn">Terror</li>
-                <li class="card-btn">Militar</li>
-                <li class="card-btn">Ficção Científica</li>
-                <li class="card-btn">Romance</li>
-                <li class="card-btn">Isekai</li>
-            </ul>
-        </div>
-
-        <div id="animes" class="m-cont-main">
-
-        </div>
-    </main>
-   
-</body>
+        </footer>
+    </body>
 </html>
